@@ -1,0 +1,27 @@
+<nav class="navbar" data-bs-theme="dark" >
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="/favicon.ico" alt="Bootstrap" width="60" height="48">
+      <!-- "https://www.flaticon.com/free-icons/japan" Japan icons created by smalllikeart - Flaticon-->
+      Welcome to AQuote!
+    </a>
+  </div>
+</nav>
+<div >
+  <!-- <div class="container center">
+    <marquee width="100%" direction="left" >
+      This WebApp is powered by ## API https://animechan.vercel.app/ by https://www.rocktimcodes.site/ !!!! GO SUPPORT!!!!!
+    </marquee>
+  </div> -->
+  <div class="container center"  *ngIf="!get">
+     <a class="btn" id="GetQuote" [routerLink]="['/quote']" (click)="get=true">Get A Quote</a>
+     <div class="credits center">
+      This WebApp is powered by 
+      <br>
+      ## API https://animechan.vercel.app/ by https://www.rocktimcodes.site/ 
+      <br>
+      !!!! GO SUPPORT!!!!!
+     </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>
