@@ -1,0 +1,16 @@
+<div class="blockquote-wrapper center">
+    <div class="blockquote center">
+           
+                <h4>
+                    {{quote.quote}}
+                    </h4>
+                   <h6>by {{quote.character}} <br><em> from the anime ~ <strong>{{quote.anime}}</strong></em></h6>
+            
+    </div>
+    <div class="container center">
+        <button class="btn " (click)="ngOnInit()">Get Another Quote</button>
+        <button class="btn " (click)="quoteByChar()">Get Another Quote By This Character</button>
+        <button class="btn " (click)="quoteByAnime()">Get Another Quote From This Anime</button><br>
+        <button class="btn " (click)="goToMAL()">Search Anime</button>
+     </div>
+</div>

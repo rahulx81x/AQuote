@@ -1,0 +1,39 @@
+.blockquote-wrapper{
+    margin-top:100px;
+    margin-bottom: 30px;
+    width: 60%;
+    border:solid 2px #fcc9b9;
+    background:rgb(240, 126, 126,0.35);
+    border-radius: 15px;
+}
+.blockquote{
+    color: black;
+    font-size: 12pt;
+    line-height: 1.4;
+    font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+    border:solid 2px #fcc9b9;
+    padding: 20px;
+    background:rgb(240, 126, 126,0.45);
+    margin: 20px;
+    border-radius: 15px;
+}
+   
+.blockquote h6{
+    margin-top: .5em;
+    padding: 0;
+    color: black;
+    font-size: 12pt;
+    font-style: italic;
+   
+}
+button{
+    border:solid 1px #fcc9b9;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom: 20px;
+    background:rgb(240, 126, 126,0.55)
+}
+button:hover{
+    border:solid 1px #fcc9b9;
+    background:rgb(240, 126, 126,1)
+}
